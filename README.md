@@ -49,3 +49,53 @@
 
 ---
 
+## 🚀 Getting Started
+
+### ⚙️ Prerequisites
+
+Make sure you have the following installed:
+
+- [Node.js](https://nodejs.org/) (v16 or later)
+- [npm](https://www.npmjs.com/)
+- [Java JDK 17+](https://adoptium.net/)
+- [Maven](https://maven.apache.org/)
+- [MongoDB](https://www.mongodb.com/) (local or Compass/Atlas)
+
+---
+
+## 🛠️ Run Locally
+
+### ✅ Frontend (React)
+
+```bash
+# Navigate to frontend folder
+cd JobPortal-frontend
+
+# Install dependencies
+npm install
+
+# Start development server
+npm start
+
+---
+
+### ✅ Backend (Spring Boot)
+
+```bash
+# Navigate to backend folder
+cd JobPortal-backend
+
+# If using Maven wrapper (Linux/macOS)
+./mvnw spring-boot:run
+
+# If using Maven wrapper (Windows)
+mvnw spring-boot:run
+
+# Or use global Maven
+mvn spring-boot:run
+---
+
+
+
+🔗 Frontend will be running at: http://localhost:5173
+🔗 Backend will be running at: http://localhost:8080
